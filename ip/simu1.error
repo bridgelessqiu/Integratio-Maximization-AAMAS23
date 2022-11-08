@@ -1,0 +1,10 @@
+This module provides its own Python executable:
+  python3.7
+If you are using a different Python whose version is not 3.7, please run:
+  (Python 2.7) export PYTHONPATH=$GUROBI_HOME/lib/python2.7_utf32
+  (Python 3.6) export PYTHONPATH=$GUROBI_HOME/lib/python3.6_utf32
+  (Python 3.8) export PYTHONPATH=$GUROBI_HOME/lib/python3.8_utf32
+  (Python 3.9) export PYTHONPATH=$GUROBI_HOME/lib/python3.9_utf32
+To find your Python version:
+  python -V
+slurmstepd: error: *** JOB 44398936 ON udc-aj36-1c0 CANCELLED AT 2022-10-26T11:19:12 DUE TO TIME LIMIT ***
